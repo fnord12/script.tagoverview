@@ -1,6 +1,10 @@
 # script.tagoverview
 Reviving and updating the Tag Overview created by olivaar.   A way to manage tags in Kodi.  You can put this in your keymap to run the script by pressing the t key: &lt;t&gt;RunScript(script.tagoverview)&lt;/t&gt;
 
+Or this using JSON:
+
+jsonrpc?request={"jsonrpc":"2.0","method": "Addons.ExecuteAddon", "params": { "addonid": "script.tagoverview"}, "id": 1 }
+
 ## To make the tagoverview addon functional in Kodi v17 & v18 (Krypton & Leia):
 
 * Accounted for 3 digit database numbers (MyVideos116.db)
