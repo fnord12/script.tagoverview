@@ -1,0 +1,121 @@
+# Kodi Media Center language file
+# Addon Name: Tag Overview
+# Addon id: script.tagoverview
+msgid ""
+msgstr ""
+
+msgctxt "#32000"
+msgid "Tags"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Select Tags"
+msgstr ""
+
+msgctxt "#40025"
+msgid "Are you sure?"
+msgstr ""
+
+msgctxt "#50000"
+msgid "New Tag"
+msgstr ""
+
+msgctxt "#50001"
+msgid "Filename"
+msgstr ""
+
+msgctxt "#50002"
+msgid "Add Tags"
+msgstr ""
+
+msgctxt "#50003"
+msgid "Add Movie"
+msgstr ""
+
+msgctxt "#50004"
+msgid "Tag Overview"
+msgstr ""
+
+msgctxt "#50005"
+msgid "                                                          TAGS"
+msgstr ""
+
+msgctxt "#50006"
+msgid "MUSIC"
+msgstr ""
+
+msgctxt "#50007"
+msgid "MOVIES"
+msgstr ""
+
+msgctxt "#50008"
+msgid "TV"
+msgstr ""
+
+msgctxt "#50009"
+msgid "Assigned Movies"
+msgstr ""
+
+
+msgctxt "#50010"
+msgid "Show tagged Movies"
+msgstr ""
+
+msgctxt "#50011"
+msgid "Show tagged TV Shows"
+msgstr ""
+
+msgctxt "#50012"
+msgid "Show tagged Music Videos"
+msgstr ""
+
+msgctxt "#50013"
+msgid "Delete this tag"
+msgstr ""
+
+msgctxt "#50014"
+msgid "Make a selection"
+msgstr ""
+
+msgctxt "#50015"
+msgid "Tag Management"
+msgstr ""
+
+msgctxt "#50016"
+msgid "Not implemented"
+msgstr ""
+
+msgctxt "#50017"
+msgid "No Tag"
+msgstr ""
+
+msgctxt "#50018"
+msgid "Add Music Video"
+msgstr ""
+
+msgctxt "#50019"
+msgid "Add TV Show"
+msgstr ""
+
+msgctxt "#50020"
+msgid "General Settings"
+msgstr ""
+
+msgctxt "#50021"
+msgid "Use MySQL-Database?"
+msgstr ""
+
+msgctxt "#50022"
+msgid "MySQL User"
+msgstr ""
+
+msgctxt "#50023"
+msgid "MySQL Password"
+msgstr ""
+
+msgctxt "#50024"
+msgid "Host address"
+msgstr ""
+    
+
+    
