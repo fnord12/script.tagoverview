@@ -5,22 +5,22 @@ Or this using JSON:
 
 jsonrpc?request={"jsonrpc":"2.0","method": "Addons.ExecuteAddon", "params": { "addonid": "script.tagoverview"}, "id": 1 }
 
-A tip if using MYSQL:
-
-Download mysql-connector-python-8.0.17.tar.gz Source from 
-https://pypi.org/project/mysql-connector-python/#files
-copy from zip only folder ../lib/mysql/*.* to ../addons/script.tagoverview/mysql
-
-Add database parameters in CDatabase.py
-under
-class CDatabase:
-
-    baseconfig = {
-    }
-
-Add database parameters in MySQLconfig.py
-under
-class Config(object):
+>A tip if using MYSQL:
+>
+>Download mysql-connector-python-8.0.17.tar.gz Source from 
+>https://pypi.org/project/mysql-connector-python/#files
+>copy from zip only folder ../lib/mysql/*.* to ../addons/script.tagoverview/mysql
+>
+>Add database parameters in CDatabase.py
+>under
+>class CDatabase:
+>
+>    baseconfig = {
+>    }
+>
+>Add database parameters in MySQLconfig.py
+>under
+>class Config(object):
 
 ## To make the tagoverview addon functional in Kodi v17 & v18 (Krypton & Leia):
 
