@@ -67,9 +67,10 @@ class CDialogTagMovies(xbmcgui.WindowXMLDialog):
         debug("CDialogTagMovies getFileInfos")
         self.player = xbmc.Player()
         self.vdb = CVideoDatabase()
-        self.filepath = decode(xbmc.getInfoLabel('ListItem.FileNameAndPath'))
-        self.path = xbmc.getInfoLabel('ListItem.Path')
-        self.name = xbmc.getInfoLabel('ListItem.Label')
+        #self.filepath = decode(xbmc.getInfoLabel('ListItem.FileNameAndPath'))
+        self.filepath = xbmc.getInfoLabel('ListItem.FileNameAndPath').decode("utf-8")
+        self.path = xbmc.getInfoLabel('ListItem.Path').decode("utf-8")
+        self.name = xbmc.getInfoLabel('ListItem.Label').decode("utf-8")
         self.dbid = xbmc.getInfoLabel('ListItem.DBID')
         self.entry = "selection"
         #self.dump()
