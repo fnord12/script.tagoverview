@@ -5,7 +5,7 @@ Or this using JSON:
 
 jsonrpc?request={"jsonrpc":"2.0","method": "Addons.ExecuteAddon", "params": { "addonid": "script.tagoverview"}, "id": 1 }
 
->A tip if using MYSQL:
+A tip if using MYSQL:
 >
 >Download mysql-connector-python-8.0.17.tar.gz Source from 
 >https://pypi.org/project/mysql-connector-python/#files
