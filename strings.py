@@ -67,23 +67,15 @@ PROPERTY_MUSICVIDEO     = 'musicvideo'
 
 
 def debug(msg, *args):
-    try:
-        txt=u''
-        msg=unicode(msg)
+    try: 
+        xbmc.log("TAGOVERVIEW: " + (str(msg)))
+     
         for arg in args:
-            if type(arg) == int:
-                arg = unicode(arg)
-            if type(arg) == list:
-                arg = unicode(arg)
-            txt = txt + u"/" + arg
-        if txt == u'':
-            xbmc.log(u"Tag: {0}".format(msg).encode('ascii','xmlcharrefreplace'), xbmc.LOGDEBUG)
-        else:
-            xbmc.log(u"Tag: {0}#{1}#".format(msg, txt).encode('ascii','xmlcharrefreplace'), xbmc.LOGDEBUG)
+            print(str(arg))
     except:
-        print "Error in Debugoutput"
-        print msg
-        print args
+        print ("TAGOVERVIEW: Error in Debugoutput")
+        print (msg)
+        print (args)
             
 def error(msg, *args):
     txt=''
@@ -100,7 +92,8 @@ def encode(s):
     return s.encode('utf-8','replace')
 
 def decode(string):
-    return string.decode('utf-8','replace')
+    #return string.decode('utf-8','replace')
+    return
 
 def uc(s):
     return unicode(s, 'utf-8','replace')

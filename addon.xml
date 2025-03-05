@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.tagoverview" name="Tag Overview" version="0.1.1" provider-name="fnord12 via olivaar">
 	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py">
 		<provides>executable</provides>
 	</extension>
 	
 	<extension point="kodi.context.item">
-    <menu id="kodi.core.manage">
+    <menu id="kodi.core.main">
       <item library="default.py">
         <label>32000</label>
         <visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,musicvideo)</visible>
